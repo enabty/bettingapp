@@ -1,5 +1,5 @@
 from bettingapp import __version__
-from bettingapp.math import multiply_two_numbers
+from bettingapp.auth import multiply_two_numbers
 
 
 def test_version():
