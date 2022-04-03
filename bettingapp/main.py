@@ -1,5 +1,6 @@
 import user_inputs
 import sheet_funcs
+import help_funcs
 from cell_inserting import fill_cell
 
 
@@ -7,7 +8,7 @@ def new_bet():
     row = sheet_funcs.get_next_cell_row()  # Get next row
 
     # Placing date in B col
-    fill_cell(row, "Date", "NONE")
+    fill_cell(row, "Date", help_funcs.get_today_date())
 
     # Placing Match in D col
     fill_cell(row, "Match", user_inputs.match_name())

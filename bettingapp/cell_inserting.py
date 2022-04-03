@@ -1,5 +1,4 @@
 import sheet_funcs
-import help_funcs
 
 header_dict = sheet_funcs.generate_col_dict()
 
@@ -9,7 +8,7 @@ def fill_cell(row: str, col_name: str, ip_str: str):
 
     # Placing date in B col
     if col_name == "Date":
-        sheet_funcs.new_cell(cell, help_funcs.get_today_date())
+        sheet_funcs.new_cell(cell, ip_str)
 
     # Placing Match in D col
     elif col_name == "Match":
