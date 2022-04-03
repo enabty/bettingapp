@@ -12,10 +12,10 @@ creds = ServiceAccountCredentials.from_json_keyfile_name('../bettingapp-346110-9
 client = gspread.authorize(creds)
 
 # get the instance of the Spreadsheet
-sheet = client.open('BETS_py')
+sheet = client.open('LIVE')
 
 # get the fourth sheet of the Spreadsheet
-sh = sheet.get_worksheet(3)
+sh = sheet.get_worksheet(0)
 
 
 if __name__ == '__main__':
