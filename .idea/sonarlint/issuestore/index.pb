@@ -8,5 +8,3 @@
 poetry.lock,0/0/0068a1506b061a8948c37d78b0dd5697211558d3
 H
 tests/test_bettingapp.py,c/b/cbc45485a063070c517c94ca753e6ae784a466b5
-F
-bettingapp/__init__.py,a/2/a2401145fdb8703a22dc82c65c773f26b76a63e5
